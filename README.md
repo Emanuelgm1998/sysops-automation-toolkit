@@ -1,17 +1,16 @@
-# SysOps Automation Toolkit
+# 🛠️ SysOps Automation Toolkit — Simulated Infrastructure Tasks
 
-This repository contains a collection of Bash and Python scripts that simulate common SysOps tasks. All scripts are ready to run in GitHub Codespaces or any Linux-based environment.
+This repository contains simulated Bash and Python scripts for automating routine SysOps tasks. All scripts are safe to run locally and require no AWS or external services.
+
+---
 
 ## 📁 Scripts Included
 
-### 🔁 restart_idle_services.sh
-Simulates checking and restarting idle services.
-
-### 💾 backup_simulator.py
-Mocks a file system backup process with logging and error simulation.
-
-### 🧠 monitor_resources.py
-Simulates CPU/memory monitoring and logs thresholds.
+| Script | Description |
+|--------|-------------|
+| `restart_idle_services.sh` | Simulates detecting and restarting idle services (e.g., nginx, mysql). |
+| `backup_simulator.py` | Mocks a backup process with logs for demonstration purposes. |
+| `monitor_resources.py` | Monitors CPU and memory usage and raises simulated alerts if thresholds are exceeded. |
 
 ---
 
@@ -21,15 +20,3 @@ Simulates CPU/memory monitoring and logs thresholds.
 bash scripts/restart_idle_services.sh
 python3 scripts/backup_simulator.py
 python3 scripts/monitor_resources.py
-```
-
-All scripts are safe to run locally and require no AWS or cloud configuration.
-
-## 📌 Tools Used
-- Bash
-- Python 3
-- Codespaces
-- ChatGPT-4o (for code generation)
-
-## 📄 License
-MIT

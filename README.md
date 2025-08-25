@@ -12,6 +12,12 @@ This repository contains simulated Bash and Python scripts for automating routin
 | `backup_simulator.py` | Mocks a backup process with logs for demonstration purposes. |
 | `monitor_resources.py` | Monitors CPU and memory usage and raises simulated alerts if thresholds are exceeded. |
 
+👨‍💻 Autor
+© 2025 Emanuel — Licencia MIT
+
+🌐 LinkedIn
+https://www.linkedin.com/in/emanuel-gonzalez-michea/
+
 ---
 
 ## 🧪 How to Run
